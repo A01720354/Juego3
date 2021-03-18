@@ -1,3 +1,4 @@
+import turtle
 from random import choice
 from turtle import *
 from freegames import floor, vector
@@ -120,6 +121,8 @@ def move():
                 vector(-10, 0),
                 vector(0, 10),
                 vector(0, -10),
+                vector(10,10),
+                vector(-10,-10)
             ]
             plan = choice(options)
             course.x = plan.x
